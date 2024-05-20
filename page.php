@@ -3,13 +3,14 @@ class Page
 {
   // class Page's attributes
   public $content;
-  public $title = "TLA Consulting Pty Ltd";
+  public $title = "Edmonds College";
   public $keywords = "TLA Consulting, Three Letter Abbreviation, 
                      some of my best friends are search engines";
-  public $buttons = array("Home"   => "home.php", 
-                        "Contact"  => "contact.php", 
-                        "Services" => "services.php", 
-                        "Site Map" => "map.php"
+  public $buttons = array("Home"   => "home.php",
+                        "Edc"      => "https://www.edmonds.edu/",
+                        "Business" => "https://www.edmonds.edu/programs-and-degrees/business/",
+                        "CIS" => "services.php",
+                        "Contact" => "map.php"
                     );
 					
 
@@ -56,8 +57,8 @@ class Page
     ?>   
     <!-- page header -->
     <header>    
-      <img src="logo.gif" alt="TLA logo" height="70" width="70" /> 
-      <h1>TLA Consulting</h1>
+      <img src="edmondscollege.png" alt="TLA logo" height="70" width="70" />
+      <h1>Edmonds College</h1>
     </header>
     <?php
   }

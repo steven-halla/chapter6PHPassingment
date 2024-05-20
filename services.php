@@ -4,10 +4,12 @@
   class ServicesPage extends Page
   {
     private $row2buttons = array(
-                           "Re-engineering" => "reengineering.php",
-                           "Standards Compliance" => "standards.php",
-                           "Buzzword Compliance" => "buzzword.php",
-                           "Mission Statements" => "mission.php"
+        "Computer Information Systems - Home" => "https://www.edmonds.edu/programs-and-degrees/areas-of-study/information-technology/computer-information-systems/",
+
+        "Computer Information Systems - Associate of Technical Arts Degree" => "https://catalog.edmonds.edu/preview_program.php?catoid=63&poid=16037",
+        "Computer Information Systems - Information Security and Digital Forensics Associate of Technical Arts Degree" => "#",
+        "Computer Information Systems - Network Technology Associate of Technical Arts Degree" => "#",
+        "Computer Information Systems - Web Application and Cloud Developer Associate of Technical Arts Degree" => "#"
                            );
 
     public function Display()
