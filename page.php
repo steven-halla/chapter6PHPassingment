@@ -10,7 +10,7 @@ class Page
                         "Edc"      => "https://www.edmonds.edu/",
                         "Business" => "https://www.edmonds.edu/programs-and-degrees/business/",
                         "CIS" => "services.php",
-                        "Contact" => "map.php"
+                        "Contact" => "https://www.edmonds.edu/programs-and-degrees/areas-of-study/information-technology/computer-information-systems/contact.html"
                     );
 					
 
